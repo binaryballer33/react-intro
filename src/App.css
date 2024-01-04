@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  
+}
+
+.App {
+  display: grid;
+  background-color: #f0f8ff;
+  max-width: 500px;
+  min-width: 350px;
+  place-items: center;
+  padding: .5rem;
+  margin: 1rem;
+}
+
+.App p {
+  font-size: 1.25em;
+  color: #000000;
+}
+
+.featuredPup {
+  display: grid;
+  place-items: center;
+  background-color: darkslategray;
+  color: #f1f1f1;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: .5rem;
+}
